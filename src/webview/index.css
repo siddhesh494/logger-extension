@@ -1,0 +1,19 @@
+
+
+.terminal-container {
+  border: 0.5px solid white;
+}
+
+.lookup-criteria {
+  margin: 30px 30px;
+}
+
+.search-section {
+  margin: 30px 30px;
+  gap: 10px;
+}
+
+.table-section {
+  margin: 30px 30px;
+
+}

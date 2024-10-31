@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: './src/webview/index.js', // Entry point for the React app
+    entry: './src/webview/index.jsx', // Entry point for the React app
     output: {
         path: path.resolve(__dirname, 'out'),
         filename: 'bundle.js' // Output bundle file
@@ -14,6 +14,10 @@ module.exports = {
                 use: {
                     loader: 'babel-loader'
                 }
+            },
+            {
+                test: /\.css$/, // Add this rule
+                use: ['style-loader', 'css-loader']
             }
         ]
     },
