@@ -13,8 +13,7 @@ const vscode = require('vscode');
  */
 function activate(context) {
 
-	const disposable = vscode.commands.registerCommand('logger.logger', function () {
-		console.log('Command executed: showTextField')
+	const disposable = vscode.commands.registerCommand('logger.logReader', function () {
 		const panel = vscode.window.createWebviewPanel(
 			'textField', // Identifies the type of the webview. Used internally
 			'Logger', // Title of the panel displayed to the user

@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "logger.logger",
-        "title": "logger"
+        "command": "logger.logReader",
+        "title": "Log Reader"
       }
     ]
   },
