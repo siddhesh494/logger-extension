@@ -1,11 +1,17 @@
 {
-  "name": "logger",
-  "displayName": "logger",
-  "description": "logger",
-  "version": "0.0.1",
+  "name": "logreader",
+  "displayName": "logreader",
+  "description": "logreader",
+  "publisher": "SiddheshShinde",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siddhesh494/logger-extension"
+  },
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.95.0"
   },
+  "icon": "./reading.png",
   "categories": [
     "Other"
   ],
@@ -14,7 +20,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "logger.logReader",
+        "command": "logreader.logReader",
         "title": "Log Reader"
       }
     ]
